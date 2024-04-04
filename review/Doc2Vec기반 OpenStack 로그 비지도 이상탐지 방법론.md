@@ -20,7 +20,7 @@
         2. 본 논문에서는 PV-DM방식으로 추론
 3. 방법론
     1. 연구 모형  
-    ![!\[alt text\](image.png)](<Doc2Vec기반 OpenStack 로그 비지도 이상탐지 방법론/image-20240329-051445.png>)
+    ![alt text](<Doc2Vec기반 OpenStack 로그 비지도 이상탐지 방법론/image-20240329-051445.png>)
         1. 로그 데이터 그룹화(시간 기준 윈도우 슬라이딩 전처리 방식)
         2. 슬라이딩된 각의 윈도우 데이터를 하나의 document로 가정 후 Doc2Vec으로 추론
         3. MSE를 손실함수로 AutoEncoder 학습
